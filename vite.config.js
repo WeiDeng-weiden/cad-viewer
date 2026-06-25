@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
-export default defineConfig({
-  base: '/cad-viewer/',
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/cad-viewer/' : '/',
   build: {
     chunkSizeWarningLimit: 1500,
     rollupOptions: {
@@ -13,4 +13,4 @@ export default defineConfig({
       },
     },
   },
-})
+}))

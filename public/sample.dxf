@@ -1,0 +1,228 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1015
+  9
+$EXTMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$EXTMAX
+ 10
+200.0
+ 20
+150.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70
+4
+  0
+LAYER
+  2
+0
+ 70
+0
+ 62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+WALLS
+ 70
+0
+ 62
+1
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+DOORS
+ 70
+0
+ 62
+3
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+DIMENSIONS
+ 70
+0
+ 62
+2
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LINE
+  8
+WALLS
+ 10
+10.0
+ 20
+10.0
+ 11
+190.0
+ 21
+10.0
+  0
+LINE
+  8
+WALLS
+ 10
+190.0
+ 20
+10.0
+ 11
+190.0
+ 21
+140.0
+  0
+LINE
+  8
+WALLS
+ 10
+190.0
+ 20
+140.0
+ 11
+10.0
+ 21
+140.0
+  0
+LINE
+  8
+WALLS
+ 10
+10.0
+ 20
+140.0
+ 11
+10.0
+ 21
+10.0
+  0
+LINE
+  8
+WALLS
+ 10
+10.0
+ 20
+75.0
+ 11
+80.0
+ 21
+75.0
+  0
+LINE
+  8
+WALLS
+ 10
+80.0
+ 20
+10.0
+ 11
+80.0
+ 21
+140.0
+  0
+LINE
+  8
+WALLS
+ 10
+80.0
+ 20
+75.0
+ 11
+190.0
+ 21
+75.0
+  0
+LINE
+  8
+DOORS
+ 10
+35.0
+ 20
+10.0
+ 11
+55.0
+ 21
+10.0
+  0
+ARC
+  8
+DOORS
+ 10
+35.0
+ 20
+10.0
+ 40
+20.0
+ 50
+0.0
+ 51
+90.0
+  0
+TEXT
+  8
+0
+ 10
+35.0
+ 20
+100.0
+ 40
+6.0
+  1
+LIVING ROOM
+  0
+TEXT
+  8
+0
+ 10
+110.0
+ 20
+40.0
+ 40
+6.0
+  1
+BEDROOM
+  0
+CIRCLE
+  8
+0
+ 10
+45.0
+ 20
+110.0
+ 40
+8.0
+  0
+ENDSEC
+  0
+EOF
